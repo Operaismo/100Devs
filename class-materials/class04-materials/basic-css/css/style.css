@@ -22,7 +22,11 @@ section {
   border: 5px solid black;
 }
 
-p {
+/* p {
+  color: white;
+} */
+
+section > p {
   color: white;
 }
 
@@ -34,7 +38,13 @@ footer {
   border: 5px solid lightgreen;
 }
 
-h3 {
+/* h3 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+} */
+
+footer > h3 {
   font-size: 20px;
   color: white;
   font-family: 'Roboto', sans-serif;

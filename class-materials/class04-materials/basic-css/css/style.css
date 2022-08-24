@@ -30,6 +30,10 @@ section > p {
   color: white;
 }
 
+p + p {
+  color: green;
+}
+
 /* Make this footer have a black background, with light green border, and
   this text 20px white plus a font-family of Roboto */
 

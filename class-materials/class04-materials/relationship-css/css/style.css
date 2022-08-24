@@ -1,3 +1,4 @@
+/* ALL h1 purple */
 h1 {
   color: purple;
 }
@@ -20,4 +21,9 @@ section > h2 {
 /* all h2 children under article tags red */
 article > h2 {
   color: red;
+}
+
+/* Cascade overrides above rules */
+section article h2 {
+  color: orange;
 }

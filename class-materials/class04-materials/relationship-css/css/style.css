@@ -1,0 +1,23 @@
+h1 {
+  color: purple;
+}
+
+/* All h2 yellow
+h2 {
+  color: yellow;
+} */
+
+/* ALL h2 under section tags yellow
+section h2 {
+  color: blue;
+} */
+
+/* only h2 that are directly children under section tags yellow */
+section > h2 {
+  color: blue;
+}
+
+/* all h2 children under article tags red */
+article > h2 {
+  color: red;
+}

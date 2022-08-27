@@ -22,3 +22,25 @@ section {
 .row3 {
   width: 60%;
 }
+
+/* Media Queries */
+@media screen and (max-width: 600px){
+  section {
+    background: red;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+  section {
+    background: green;
+  }
+}
+
+@media (min-width: 901px) {
+  section {
+    background: #00BBFF;
+  }
+  .row2, .row3 {
+    display: none;
+  }
+}

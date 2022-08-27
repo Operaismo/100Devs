@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* Main Content */
 header, footer {
   height: 100px;
   border: 3px solid black;
@@ -20,4 +21,23 @@ section {
 
 .row2 {
   width: 50%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px){
+  section {
+    background: red;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px){
+  section {
+    background: green;
+  }
+}
+
+@media (min-width: 901px) {
+  section {
+    background: #00BBFF;
+  }
 }

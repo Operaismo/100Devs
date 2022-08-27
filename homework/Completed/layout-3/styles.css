@@ -10,7 +10,39 @@ header, footer {
 
 section {
   height: 300px;
-  width: 33.3333%;
   border: 3px solid black;
   float: left;
+}
+
+.col1, .col3, .col4 {
+  width: 20%;
+}
+
+.col2 {
+  width: 40%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px){
+  section {
+    background: red;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+  section {
+    background: green;
+  }
+}
+
+@media (min-width: 901px) {
+  section {
+    background: #00BBFF;
+  }
+  .col2 {
+    display: none;
+  }
+  .col1, .col3, .col4 {
+    width: 33.3333%;
+  }
 }

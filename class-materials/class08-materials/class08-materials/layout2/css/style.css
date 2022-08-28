@@ -1,6 +1,6 @@
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Clear fix hack */
@@ -29,21 +29,13 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header, footer {
-     height: 100px;
-     border: 2px solid black;
+header {
+
 }
 
-section {
-     height: 200px;
-     border: 2px solid black;
-     flex: 1;
-}
+footer {
 
-main, .bottom {
-     display: flex;
 }
-
 
 /******************************************
 /* ADDITIONAL STYLES

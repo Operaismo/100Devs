@@ -91,6 +91,7 @@ a:active {
 /* SECTION 1: Welcome to BBC.com */
 h1, .date {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
 
 h1 {
@@ -127,3 +128,8 @@ h1 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+hr {
+  clear: both;
+  visibility: hidden;
+}

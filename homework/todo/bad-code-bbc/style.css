@@ -50,7 +50,7 @@ nav {
 nav a {
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 30px;
 }
 
 img {
@@ -63,19 +63,7 @@ a {
   width: 10%;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
+a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
@@ -86,6 +74,7 @@ a:active {
 .search {
   float: right;
 }
+
 
 
 /* SECTION 1: Welcome to BBC.com */
@@ -114,8 +103,14 @@ h1 {
 }
 
 p, .topHeadline h4, .otherStories h3, .otherStories h4 {
-  position: absolute;
-  bottom: 0;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.border {
+  padding-left: 1rem;
+  border-left: 4px solid gold;
+  font-size: 1.1rem;
 }
 
 .topHeadline {
@@ -124,7 +119,7 @@ p, .topHeadline h4, .otherStories h3, .otherStories h4 {
   min-height: 500px;
   min-width: 500px;
   padding: 5px;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("Israel_UAE.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/Israel_UAE.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -142,19 +137,19 @@ p, .topHeadline h4, .otherStories h3, .otherStories h4 {
 }
 
 .flag {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("Flags.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/Flags.jpg");
 }
 
 .scientist {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("COVID_SCIENTIST.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/COVID_SCIENTIST.jpg");
 }
 
 .gyms {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("WOMAN_AT_COMPUTER.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/WOMAN_AT_COMPUTER.jpg");
 }
 
 .victor {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("VICTOR_JARA.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25) ), url("img/VICTOR_JARA.jpg");
 }
 
 /* 2nd Section: NEWS */

@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>BBC</title>
-  </head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>BBC</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
   <body>
     <header>
       <nav>
-        <img
-        src="BBC_logo_black_background.png"
-        alt="BBC"
-      />
         <ul>
-          <a href="#">Sign In</a>
+          <img
+          src="BBC_logo_black_background.png"
+          alt="BBC"
+          />
+          <a href="#" class="login">Sign In</a>
           <a href="#">Home</a>
           <a href="#">News</a>
           <a href="#">Sport</a>
@@ -21,8 +28,8 @@
           <a href="#">Travel</a>
           <a href="#">Future</a>
           <a href="#">Culture</a>
-          <a href="#">More</a>
-          <label for="zebra">Search</label>
+          <a href="#" class="pulldown">More</a>
+          <label for="zebra" class="">Search</label>
           <input id="zebra" type="text" />
         </ul>
       </nav>
@@ -30,7 +37,7 @@
     <hr />
     <section>
       <h1>Welcome to BBC.com</h1>
-      <span>Thursday, 13 August</span>
+      <span class="date">Thursday, 13 August</span>
 
       <hr />
 

@@ -99,10 +99,6 @@ h1 {
   display: inline;
 }
 
-/* section{
-  border: solid black 3px;
-} */
-
 .date {
   float: right;
 }
@@ -113,6 +109,13 @@ h1 {
 
 .topHeadline, .otherStories {
   color: white;
+  display: table-cell;
+  position: relative;
+}
+
+p, .topHeadline h4, .otherStories h3, .otherStories h4 {
+  position: absolute;
+  bottom: 0;
 }
 
 .topHeadline {
@@ -121,22 +124,37 @@ h1 {
   min-height: 500px;
   min-width: 500px;
   padding: 5px;
-  background-image:
-      url("Israel_UAE.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("Israel_UAE.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-.otherStories{
+.otherStories, .flag, .scientist, .gyms, .victor{
   width: 25%;
   height: 100%;
   min-height: 250px;
   min-width: 250px;
   padding: 5px;
-  background-image:
-      url("COVID_SCIENTIST.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.flag {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("Flags.jpg");
+}
+
+.scientist {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("COVID_SCIENTIST.jpg");
+}
+
+.gyms {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("WOMAN_AT_COMPUTER.jpg");
+}
+
+.victor {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("VICTOR_JARA.jpg");
 }
 
 /* 2nd Section: NEWS */

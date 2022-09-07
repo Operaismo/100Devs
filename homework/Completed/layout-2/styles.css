@@ -40,7 +40,4 @@ section {
   section {
     background: #00BBFF;
   }
-  .row2, .row3 {
-    display: none;
-  }
 }

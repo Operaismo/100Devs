@@ -49,7 +49,7 @@ main section, .bottom section{
 }
 
 /* On tablet, please make the sections in main stack  */
-@media (min-width: 414px) and (max-width: 912px) {
+@media (min-width: 415px) and (max-width: 912px) {
   main section, .bottom section {
     width: 100%;
     float: left;
@@ -57,14 +57,14 @@ main section, .bottom section{
 }
 
 /* On laptop, please keep the normal layout, but everything should be light green */
-@media (min-width: 912px) and (max-width: 1024px) {
-  main section, .bottom section {
+@media (min-width: 913px) and (max-width: 1024px) {
+  main, .bottom {
     background-color: lightgreen;
   }
 }
 
 /* On larger screens, please keep the normal layout, but everything should be light blue */
-@media (min-width: 1025px) and (max-width: 2560px) {
+@media all and (min-width: 1025px) {
   main section, .bottom section {
     background-color: lightblue;
   }

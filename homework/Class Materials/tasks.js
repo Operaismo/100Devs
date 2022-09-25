@@ -7,4 +7,4 @@
 let admin, name;
 name = "John";
 admin = name;
-alert(`Admin: ${admin}`);
+alert('admin');

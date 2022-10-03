@@ -1,0 +1,58 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 100px;
+  height: 288px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  width: 94px;
+  height: 47px;
+}
+
+body {
+  font-family: monospace, monospace;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#zacian{
+  background: rgba(63, 180, 247);
+}
+#groudon{
+  background: rgba(253, 34, 0);
+}
+#kyogre{
+  background: rgba(10, 46, 255);
+}
+#charizard{
+  background: rgba(255, 151, 25);
+}
+#lunala{
+  background: rgba(113, 36, 207);
+}
+#whimsicott{
+  background: rgba(31, 213, 74);
+}

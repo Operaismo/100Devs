@@ -1,3 +1,5 @@
+import Pokepastes from './pokepastes';
+
 document.getElementById('zacian').onclick = switchZacian;
 document.getElementById('groudon').onclick = switchGroudon;
 document.getElementById('kyogre').onclick = switchKyogre;
